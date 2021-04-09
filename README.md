@@ -1,3 +1,3 @@
 # TDDUnitTesting
 
-In this repository I teach TDD and Unit testing
+In this repository I studying TDD and Unit testing
