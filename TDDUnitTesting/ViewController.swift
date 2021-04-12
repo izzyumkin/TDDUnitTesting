@@ -8,12 +8,22 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    private(set) var volume = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("Unhellow world!")
     }
-
-
+    
+    public func setVolume(value: Int) {
+        volume = min(max(value, 0), 100)
+    }
+    
+    public func charactersCompare(firstString: String, secondString: String) -> Bool {
+        
+        return Set(firstString) == Set(secondString)
+        
+    }
+    
 }
-
+ 
