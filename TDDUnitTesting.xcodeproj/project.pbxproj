@@ -76,6 +76,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C400491D262560C400009A79 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C400491E262560D300009A79 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C400491F262560D800009A79 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C478979F26201A3E009CEB7F /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C4004920262560FE00009A79 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				C478979B26201A3E009CEB7F /* AppDelegate.swift */,
+				C478979D26201A3E009CEB7F /* SceneDelegate.swift */,
+				C47897A126201A3E009CEB7F /* Main.storyboard */,
+				C47897A426201A42009CEB7F /* Assets.xcassets */,
+				C47897A626201A42009CEB7F /* LaunchScreen.storyboard */,
+				C47897A926201A42009CEB7F /* Info.plist */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
 		C478978F26201A3E009CEB7F = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +134,10 @@
 		C478979A26201A3E009CEB7F /* TDDUnitTesting */ = {
 			isa = PBXGroup;
 			children = (
-				C478979B26201A3E009CEB7F /* AppDelegate.swift */,
-				C478979D26201A3E009CEB7F /* SceneDelegate.swift */,
-				C478979F26201A3E009CEB7F /* ViewController.swift */,
-				C47897A126201A3E009CEB7F /* Main.storyboard */,
-				C47897A426201A42009CEB7F /* Assets.xcassets */,
-				C47897A626201A42009CEB7F /* LaunchScreen.storyboard */,
-				C47897A926201A42009CEB7F /* Info.plist */,
+				C400491D262560C400009A79 /* Model */,
+				C400491E262560D300009A79 /* View */,
+				C400491F262560D800009A79 /* Controller */,
+				C4004920262560FE00009A79 /* Supporting files */,
 			);
 			path = TDDUnitTesting;
 			sourceTree = "<group>";
