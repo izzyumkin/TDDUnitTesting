@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C4004922262564D200009A79 /* TaskTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4004921262564D200009A79 /* TaskTesting.swift */; };
+		C400492E262564EB00009A79 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = C400492D262564EB00009A79 /* Task.swift */; };
 		C478979C26201A3E009CEB7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C478979B26201A3E009CEB7F /* AppDelegate.swift */; };
 		C478979E26201A3E009CEB7F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C478979D26201A3E009CEB7F /* SceneDelegate.swift */; };
 		C47897A026201A3E009CEB7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C478979F26201A3E009CEB7F /* ViewController.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C4004921262564D200009A79 /* TaskTesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTesting.swift; sourceTree = "<group>"; };
+		C400492D262564EB00009A79 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		C478979826201A3E009CEB7F /* TDDUnitTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDDUnitTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C478979B26201A3E009CEB7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C478979D26201A3E009CEB7F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +83,7 @@
 		C400491D262560C400009A79 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C400492D262564EB00009A79 /* Task.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -109,6 +114,14 @@
 				C47897A926201A42009CEB7F /* Info.plist */,
 			);
 			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		C4004929262564D600009A79 /* Task */ = {
+			isa = PBXGroup;
+			children = (
+				C4004921262564D200009A79 /* TaskTesting.swift */,
+			);
+			path = Task;
 			sourceTree = "<group>";
 		};
 		C478978F26201A3E009CEB7F = {
@@ -146,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				C47897B226201A42009CEB7F /* TDDUnitTestingTests.swift */,
+				C4004929262564D600009A79 /* Task */,
 				C47897B426201A42009CEB7F /* Info.plist */,
 			);
 			path = TDDUnitTestingTests;
@@ -290,6 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C400492E262564EB00009A79 /* Task.swift in Sources */,
 				C47897A026201A3E009CEB7F /* ViewController.swift in Sources */,
 				C478979C26201A3E009CEB7F /* AppDelegate.swift in Sources */,
 				C478979E26201A3E009CEB7F /* SceneDelegate.swift in Sources */,
@@ -301,6 +316,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C47897B326201A42009CEB7F /* TDDUnitTestingTests.swift in Sources */,
+				C4004922262564D200009A79 /* TaskTesting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,7 +486,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KP4A68PJ98;
-				INFOPLIST_FILE = TDDUnitTesting/Info.plist;
+				INFOPLIST_FILE = "TDDUnitTesting/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -489,7 +505,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KP4A68PJ98;
-				INFOPLIST_FILE = TDDUnitTesting/Info.plist;
+				INFOPLIST_FILE = "TDDUnitTesting/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
